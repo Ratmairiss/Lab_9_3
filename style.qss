@@ -1,0 +1,24 @@
+QWidget { background-color: #424242;
+		  font-family: "Bahnschrift SemiLight"; }
+
+QWidget#Canvas, QWidget#MiniCanvas { background-color: #ffffff; }
+
+QMessageBox, QTableView { color: #ffffff;
+						  border: 0px;   }
+
+/*QHeaderView::section { background-color: #535353;
+					   color: #ffffff; }*/
+
+QLineEdit, QPushButton, 
+QComboBox, QComboBox QAbstractItemView,
+QSpinBox, QHeaderView::section,
+QTableCornerButton::section { 
+           background-color: #535353;
+		   color: #ffffff;
+		   border: 0px;   
+}
+
+QLabel { color:#ffffff; }
+
+QPushButton:pressed { background-color: #505050; }
+
